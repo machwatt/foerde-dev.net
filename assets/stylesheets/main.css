@@ -1,0 +1,127 @@
+/* Reset */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style-position:inside}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}a:focus,button:focus{outline:0}button::-moz-focus-inner{border:0}*,:after,:before{box-sizing:border-box;-webkit-tap-highlight-color:transparent;‑webkit‑text‑size‑adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+
+
+html {
+    font-family         : 'Titillium Web';
+    font-weight         : 300;
+}
+body {
+    line-height         : 1.5;
+    color               : #555;
+}
+a {
+    color               : #1F51DB;
+    transition          : color 0.25s linear;
+}
+a:hover {
+    color               : #FF8205;
+}
+strong {
+    display             : block;
+    font-weight         : 700;
+    text-align          : center;
+}
+
+
+header {
+    color               : #fff;
+    text-align          : center;
+    background          : url(../images/flensburg.jpg) no-repeat center center;
+    background-size     : cover;
+    position            : relative;
+    padding             : 50px 20px;
+}
+header:after {
+    content             : '';
+    background          : linear-gradient(135deg, #FF8205 0, #1F51DB 100%);
+    opacity             : 0.7;
+    display             : block;
+    position            : absolute;
+    top                 : 0;
+    right               : 0;
+    bottom              : 0;
+    left                : 0;
+}
+header .headerContent {
+    position            : relative;
+    z-index             : 11;
+}
+header img {
+    max-width           : 200px;
+}
+h1 {
+    font-weight         : 700;
+    font-size           : 48px;
+    margin              : 20px auto;
+}
+h2 {
+    font-weight         : 700;
+}
+
+
+main {
+    text-align          : center;
+    padding             : 50px 20px;
+    max-width           : 700px;
+    width               : 100%;
+    margin              : 0 auto;
+}
+
+
+form {
+    margin              : 50px auto 0;
+}
+form strong {
+    margin-bottom       : 20px;
+}
+input {
+    border              : 2px solid #1F51DB;
+    padding             : 10px;
+    display             : inline-block;
+    transition          : border-color 0.25s linear;
+    appearance          : none;
+    -moz-appearance     : none;
+    -webkit-appearance  : none;
+    margin              : 0;
+    font-family         : 'Titillium Web';
+    font-size           : 100%;
+    width               : 234px;
+    border-radius       : 0;
+    height              : 48px;
+}
+input:focus {
+    border-color        : #FF8205;
+    outline             : none;
+}
+button {
+    border              : 2px solid #1F51DB;
+    background          : none;
+    cursor              : pointer;
+    transition          : border-color 0.25s linear;
+    padding             : 11px;
+    margin              : 0;
+    vertical-align      : bottom;
+    margin-left         : -5.5px;
+    height              : 48px;
+}
+button path {
+    transition          : fill 0.25s linear;
+}
+button:hover {
+    border-color        : #FF8205;
+}
+button:hover path {
+    fill                : #FF8205;
+}
+
+
+footer {
+    background          : #f5f5f5;
+    text-align          : center;
+    padding             : 50px 20px;
+}
+footer img {
+    max-width           : 75px;
+    margin-bottom       : 20px;
+}
