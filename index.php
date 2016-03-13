@@ -1,6 +1,6 @@
 <?php
 
-    $emailToReciveInquiry = 'slack@foerde-dev.net';
+    $emailToReceiveInquiry = 'slack@foerde-dev.net';
     $emailSubject = 'Förde-Dev – Beitrittsanfrage';
     $errorMessages = array();
     $successMessage = '';
