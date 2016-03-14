@@ -31,7 +31,7 @@
             $mailHeader .= 'Content-type: text/html; charset=UTF-8'."\r\n";
             $mailHeader .= 'From: Förde-Dev Website <info@foerde-dev.net>'."\r\n";
 
-            if(mail($emailToReciveInquiry, $mailSubject, $mailMessage, $mailHeader)) {
+            if(mail($emailToReceiveInquiry, $mailSubject, $mailMessage, $mailHeader)) {
                 $successMessage = 'Deine Anfrage wurde erfolgreich abgeschickt, danke.';
             }
         }
